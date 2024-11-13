@@ -1,0 +1,15 @@
+spring:
+  ai:
+    openai:
+      api-key: ${SPRING_AI_OPENAI_API_KEY}
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 15MB
+      max-request-size: 15MB
+
+
+
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false
